@@ -35,12 +35,11 @@ img {
     max-width: 1000px;
     text-align: justify;
     padding: 20px;
-    background-color: #ebeff1;
     margin: 0 auto;
 }
 
 
 .image {
-    width: 800px;
+    width: 600px;
     margin: 20px;
 }

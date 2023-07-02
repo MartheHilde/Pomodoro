@@ -3,35 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Pomodoro Prototype</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Pomodoro Prototype</h1>
+    <div class="container">
     <p>
       Pomodoro-teknikken er en metode for å styre egen tidsbruk på en mer effektiv måte. I korte trekk går det ut på å jobbe kun med en enkelt aktivitet om gangen. Formålet bak applikasjonen er å kunne hjelpe studenter med å implementere Pomodoro-teknikken i studierutinene sine, sammen med integrerte pauser, planlegging av oppgaver og statistikk over egen studietid. Appen er designet for en mobil plattform og er utviklet i Figma.
     </p>
+  </div>
   </header>
 
   <div class="container">
-    <h2>Applikasjonen</h2>
-    <p>
-      Valget om enkelhet og brukervennlighet ble gjort med tanke på å gjøre det så intuitivt som mulig for brukerne å starte og følge Pomodoro-øktene. Størrelsene på knapper, avstander og bakgrunnsrelasjonen mellom figurer skal ha et tydelig skille, og jeg ble inspirert av stilarten neumorphism for å få objektene til å skille seg ut.
-    </p>
-    <video width="350" controls>
-        <source src="vid/2 - Prototype.mov" type="video/mp4">
-      </video> 
+    <h1 class="my-4">Applikasjonen</h1>
 
-  </div>
-
-  <div class="container">
-    <h2>Problemstillingen</h2>
-    <h4>"Hvordan kan vi enkelt tilrettelegge for forbedring av studieteknikker ved hjelp av faste arbeidsøkter?"</h4>
-    <p>
-      Målet bak denne problemstillingen er å utvikle en brukervennlig Pomodoro-basert applikasjon som gir brukerne en enkel måte å implementere Pomodoro-teknikken i sin studiehverdag. Målgruppen er studenter som ønsker å forbedre produktiviteten og utvikle gode studieteknikker.
-    </p>
-    <img class="image" src="img/personas.png" alt="Problemstillingen">
+    <div class="row">
+  
+      <div class="col-md-6">
+        <video width="350" controls>
+          <source src="vid/2 - Prototype.mov" type="video/mp4">
+        </video> 
+      </div>
+  
+      <div class="col-md-6">
+        <h3 class="my-3">Pomodoro</h3>
+        <p>      Valget om enkelhet og brukervennlighet ble gjort med tanke på å gjøre det så intuitivt som mulig for brukerne å starte og følge Pomodoro-øktene. Størrelsene på knapper, avstander og bakgrunnsrelasjonen mellom figurer skal ha et tydelig skille, og jeg ble inspirert av stilarten neumorphism for å få objektene til å skille seg ut.</p>
+        <h3 class="my-3">Problemstillingen</h3>
+        <h4>"Hvordan kan vi enkelt tilrettelegge for forbedring av studieteknikker ved hjelp av faste arbeidsøkter?"</h4>
+        <p>
+          Målet bak denne problemstillingen er å utvikle en brukervennlig Pomodoro-basert applikasjon som gir brukerne en enkel måte å implementere Pomodoro-teknikken i sin studiehverdag. Målgruppen er studenter som ønsker å forbedre produktiviteten og utvikle gode studieteknikker.
+        </p>
+      </div>
+  
+    </div>
   </div>
 
   <div class="container">
@@ -48,10 +55,25 @@
       <li>Hva må løsningen inneholde?</li>
       <li>Hvordan kan det visualiseres?</li>
     </ul>
-    <h4>
-      Den endelige prototypen er en enkel Pomodoro-app der brukeren kan trykke på "Start" for å starte en nedtelling på 25 minutter. Etter hver 25-minutters arbeidsøkt vil det dukke opp en påminnelse om å ta en 5-minutters pause. Appen gjør det enkelt å bruke studieteknikken med forhåndsdefinerte arbeidstider og mulighet for planlegging av oppgaver og arbeidsøkter.
-    </h4>
-    <img class="image" src="img/overview.png" alt="Applikasjonen">
+
   </div>
+
+  <div class="container">
+    <h1 class="my-4">Applikasjonen</h1>
+
+    <div class="row">
+  
+      <div class="col-md-8">
+        <img class="image" src="img/overview.png" alt="Applikasjonen">
+      </div>
+  
+      <div class="col-md-4">
+        <p>       Den endelige prototypen er en enkel Pomodoro-app der brukeren kan trykke på "Start" for å starte en nedtelling på 25 minutter. Etter hver 25-minutters arbeidsøkt vil det dukke opp en påminnelse om å ta en 5-minutters pause. Appen gjør det enkelt å bruke studieteknikken med forhåndsdefinerte arbeidstider og mulighet for planlegging av oppgaver og arbeidsøkter.</p>
+      </div>
+  
+    </div>
+  </div>
+
+
 </body>
 </html>
